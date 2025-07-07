@@ -1,0 +1,38 @@
+
+:root{
+    --cinza:#aaa;
+    --vermelho:red;
+    --vermelho-escuro:red;
+    --branca:white;
+    --luz:#ff5c77;
+}
+
+body{
+    background-color: var(--vermelho);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--branca);
+}
+
+h2{
+    color: var(--branca);
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.teclado{
+    background:linear-gradient(90deg,rgba(0, 255, 212, 1) 0%, rgba(69, 54, 135, 1) 50%, rgba(242, 7, 39, 1) 100%);
+    box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+    border-radius: 30px;
+    display: grid;
+    gap: 10px;
+    
+}
